@@ -1,0 +1,23 @@
+
+
+Case 1 :
+        char *s = (char*) malloc(5); delete s;
+
+case 2: 
+    {
+        char *pStr = (char*) malloc(25); free(pStr); 
+        strcpy(pStr, "pair programming.");
+    }
+
+case 3:
+    {
+        char *pStr = (char*) malloc(512);return;
+    }
+
+case 4:
+{
+    char *pStr = (char*) malloc(512); char c = pStr[0]; 
+void func(){ 
+    int a; int b = a * 4; 
+ }
+}
